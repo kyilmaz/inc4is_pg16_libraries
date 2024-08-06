@@ -1,17 +1,17 @@
 # inc4is_pg16_libraries
  postgresql 16.3 libraries copy for doing code analysis
- (h) librares for intellisense 
+ (h) librares for intellisense for windows
 
  All *.h files are copied from Rocky Linux 8 that runs pg16.3.
  for just analysis/read the codes not for applicable to build or debug or any kind of..
  the files are required for postgresql-16 code analysis.
 
- You should install mysy2 & mingw & gpp etc
+ Firstly should install MSYS & mingw & gpp etc
 
  https://code.visualstudio.com/docs/cpp/config-mingw
 
- msys & mingw releated dirs are located on c:\swdepot dir
- After mysy2 & mingw setups are finished complete with below steps
+ msys & mingw releated dirs must be located on c:\swdepot dir
+ After MSYS & mingw setups are completed apply below steps 
 
 ```bash
 $ cd /c/swdepot
@@ -20,8 +20,8 @@ $ wget https://ftp.postgresql.org/pub/source/v16.3/postgresql-16.3.tar.gz
 
 $ tar -xf postgresql-16.3.tar.gz
 ```
+ Copy these Repo to localy via Windows CMD
 ```console
-mkdir c:\swdepot
 cd c:\swdepot
 git clone https://github.com/kyilmaz/inc4is_pg16_libraries.git
 ```
@@ -55,6 +55,8 @@ git clone https://github.com/kyilmaz/inc4is_pg16_libraries.git
     "version": 4
 }
 ```
+
+And Change c_cpp_properties (for only using analysis stage)
 
 ---------
 **.**
