@@ -46,7 +46,7 @@ git clone https://github.com/kyilmaz/inc4is_pg16_libraries.git
                 "UNICODE",
                 "_UNICODE"
             ],
-            "compilerPath": "C:\\swdepot\\msys64\\mingw64\\bin\\gcc.exe",
+            "compilerPath": "C:\\swdepot\\msys64\\ucrt64\\bin\\gcc.exe",
             "cStandard": "c17",
             "cppStandard": "c++17",
             "intelliSenseMode": "gcc-x64"
