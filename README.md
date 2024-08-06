@@ -23,7 +23,7 @@ $ tar -xf postgresql-16.3.tar.gz
 ```console
 mkdir c:\swdepot
 cd c:\swdepot
-git clone 
+git clone https://github.com/kyilmaz/inc4is_pg16_libraries.git
 ```
 ## My c_cpp_properties.json file for intellisense "*.h file not found" crap (if you wish) to overwrite it
 
