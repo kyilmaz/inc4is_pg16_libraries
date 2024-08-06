@@ -8,7 +8,7 @@
 
  Firstly should install MSYS & mingw & gpp etc
 
- [https://code.visualstudio.com/docs/cpp/config-mingw]
+ [link][https://code.visualstudio.com/docs/cpp/config-mingw]
 
  msys & mingw releated dirs must be located on c:\swdepot dir
  After MSYS & mingw setups are completed apply below steps 
